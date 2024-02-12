@@ -1,18 +1,21 @@
-@import "button1.css";
+@import "button-1.css";
+@import "form-field-1.css";
 
 :root {
-    --color-main1: #011c37;
-    --color-main2: #15dea5;
+    --color-main1: #8324ff;
+    --color-main2: #fffbb0;
+    --color-danger: #f2545b;
+    --color-success: #659b5e;
+    --color-light: #fff;
     --color-dark: #333;
     --color-grey1: #666;
     --color-grey2: #999;
     --color-grey3: #ccc;
-    --color-light: #fff;
 
     --rounded-sm: 5px;
     --rounded-md: 10px;
     --rounded-lg: 15px;
-    --rounded-round: 50px;
+    --rounded-round: 100rem;
     --font-size: 16px;
     font-size: var(--font-size);
 }
@@ -78,7 +81,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: var(--color-main1) solid 1px;
+    border: var(--color-grey3) solid 1px;
     border-radius: var(--rounded-md);
     padding: calc(var(--rounded-md) + 5px);
 }

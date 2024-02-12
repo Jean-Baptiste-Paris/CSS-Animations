@@ -1,0 +1,23 @@
+.form__group label {
+    padding-inline-start: 1em;
+}
+
+.form__group input {
+    border: 2px solid var(--color-dark);
+    border-radius: var(--rounded-round);
+    color: var(--color-dark);
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    width: 100%;
+    transition: background-color 400ms;
+}
+
+.form__group input:focus {
+    border: 2px solid var(--color-main1);
+}
+
+.form__group input:not(:focus):invalid {
+    background: var(--color-danger);
+    border: 2px solid var(--color-danger);
+    color: var(--color-light);
+}
